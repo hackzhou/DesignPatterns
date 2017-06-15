@@ -1,7 +1,7 @@
-package com.design.pattern.factory;
+package com.design.pattern.creational.factory;
 
-import com.design.pattern.factory.impl.MailSender;
-import com.design.pattern.factory.impl.SmsSender;
+import com.design.pattern.creational.factory.impl.MailSender;
+import com.design.pattern.creational.factory.impl.SmsSender;
 
 public class SendFactory {
 	

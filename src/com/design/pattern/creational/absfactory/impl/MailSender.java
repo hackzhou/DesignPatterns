@@ -1,6 +1,6 @@
-package com.design.pattern.absfactory.impl;
+package com.design.pattern.creational.absfactory.impl;
 
-import com.design.pattern.absfactory.ISender;
+import com.design.pattern.creational.absfactory.ISender;
 
 public class MailSender implements ISender {
 

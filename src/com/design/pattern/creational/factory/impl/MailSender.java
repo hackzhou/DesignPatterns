@@ -1,6 +1,6 @@
-package com.design.pattern.factory.impl;
+package com.design.pattern.creational.factory.impl;
 
-import com.design.pattern.factory.ISender;
+import com.design.pattern.creational.factory.ISender;
 
 public class MailSender implements ISender {
 

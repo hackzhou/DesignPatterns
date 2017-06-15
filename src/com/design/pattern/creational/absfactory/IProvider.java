@@ -1,4 +1,4 @@
-package com.design.pattern.absfactory;
+package com.design.pattern.creational.absfactory;
 
 public interface IProvider {
 	

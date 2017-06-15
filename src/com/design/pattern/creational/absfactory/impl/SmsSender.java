@@ -1,6 +1,6 @@
-package com.design.pattern.factory.impl;
+package com.design.pattern.creational.absfactory.impl;
 
-import com.design.pattern.factory.ISender;
+import com.design.pattern.creational.absfactory.ISender;
 
 public class SmsSender implements ISender {
 

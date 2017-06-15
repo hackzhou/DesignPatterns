@@ -1,6 +1,6 @@
-package com.design.pattern.absfactory;
+package com.design.pattern.creational.absfactory;
 
-import com.design.pattern.absfactory.impl.SendSmsFactory;
+import com.design.pattern.creational.absfactory.impl.SendSmsFactory;
 
 public class MyTest {
 	
