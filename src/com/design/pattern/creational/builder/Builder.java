@@ -25,7 +25,4 @@ public class Builder {
 	public List<ISender> getList() {
 		return list;
 	}
-	public void setList(List<ISender> list) {
-		this.list = list;
-	}
 }
