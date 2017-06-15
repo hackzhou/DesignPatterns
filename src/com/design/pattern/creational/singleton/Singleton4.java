@@ -9,9 +9,7 @@ public class Singleton4 {
 	
 	public static Singleton4 getInstance(){
 		if(instance == null){
-			synchronized (instance){
-				syncInit();
-			}
+			syncInit();
 		}
 		return instance;
 	}
