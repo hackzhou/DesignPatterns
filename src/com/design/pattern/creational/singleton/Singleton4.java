@@ -10,12 +10,16 @@ public class Singleton4 {
 	public static Singleton4 getInstance(){
 		if(instance == null){
 			synchronized (instance){
-				if(instance == null){
-					instance = new Singleton4();
-				}
+				syncInit();
 			}
 		}
 		return instance;
 	}
+	
+	private static synchronized void syncInit() {  
+        if (instance == null) {  
+            instance = new Singleton4();  
+        }  
+    }
 
 }
