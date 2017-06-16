@@ -1,6 +1,6 @@
 package com.design.pattern.structural.adapter.classa;
 
-public interface Targetable {
+public interface ITarge {
 	
 	void method1();
 

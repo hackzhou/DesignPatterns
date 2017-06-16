@@ -1,6 +1,6 @@
 package com.design.pattern.structural.adapter.interfacea;
 
-public abstract class Wrapper implements Sourceable {
+public abstract class Wrapper implements ISource {
 
 	@Override
 	public void method1() {

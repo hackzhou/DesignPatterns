@@ -1,9 +1,9 @@
 package com.design.pattern.structural.adapter.objecta;
 
 import com.design.pattern.structural.adapter.classa.Source;
-import com.design.pattern.structural.adapter.classa.Targetable;
+import com.design.pattern.structural.adapter.classa.ITarge;
 
-public class Wrapper implements Targetable{
+public class Wrapper implements ITarge{
 	
 	private Source source;
 	

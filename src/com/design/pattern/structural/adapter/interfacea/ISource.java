@@ -1,6 +1,6 @@
 package com.design.pattern.structural.adapter.interfacea;
 
-public interface Sourceable {
+public interface ISource {
 	
 	void method1();
 
